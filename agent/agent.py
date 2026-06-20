@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
-from langchain_classic.agents import AgentExecutor, create_tool_calling_agent
+from langchain.agents import AgentExecutor, create_tool_calling_agent
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.tools import tool
 from agent.tools import get_weather, search_attractions, get_hotels_and_flights

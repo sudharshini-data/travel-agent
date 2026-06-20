@@ -10,3 +10,4 @@ tavily-python
 requests
 python-dotenv
 pydantic
+langgraph
